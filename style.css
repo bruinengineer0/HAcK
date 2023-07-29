@@ -1,0 +1,119 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+/* Styling Text and images*/
+header {
+    background-color: #ffffff; 
+    color: #000;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header img {
+    max-width: 135px;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Button style */
+.learnMoreButton {
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #87B0F4;
+  color: #ffffff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.learnMoreButton:hover {
+  background-color: #5691f0;
+}
+
+
+
+
+/*Styling Intro section in homepage*/
+.intro-section {
+  text-align: center;
+  padding: 80px;
+  background-color: #ffffff;
+}
+
+.intro-content {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.intro-content h1 {
+  font: 36px bold;
+  margin-bottom: 20px;
+}
+
+.intro-content p {
+  font: 18px/1.6;
+  margin-bottom: 20px;
+}
+
+
+
+/*Styling navigation bar*/
+
+ul {
+    background-color: #87B0F4; 
+    list-style-type: none;
+    padding: 0.5em;
+    margin: 0;
+    overflow: hidden;
+    text-align:center;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+}
+
+li a {
+    color: #ffffff;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 17px; 
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 1px;
+}
+
+li a:hover {
+    background-color: #B4D8FF;
+    color: #fff;
+}
+
+/*Styling footer*/
+footer {
+    background-color: navy;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer p {
+    margin: 0;
+}
