@@ -1,0 +1,137 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*This is the style structure for everything under the website header*/
+body {
+  font-family: Georgia, Times, serif;
+  margin: 0;
+  padding: 0px;
+  background-color: #fffbf9; 
+  line-height: 1.5;
+}
+
+/* Styling header Text and images*/
+header {
+  text-align: center;
+  background-color: white; 
+  color: black;
+  padding: 30px 0;
+}
+
+/*Styling the image in the header (the team logo)*/
+header img {
+  margin:auto;
+  max-width: 145px;
+  display:block;
+}
+
+/*This is so that the image gets bigger if a cursor hovers over it*/
+header img:hover{
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+
+/*Styling the header title*/
+header h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top:40px;
+}
+
+/*Styling navigation bar*/
+ul {
+  background-color: #5b4f4b; 
+  list-style-type: none;
+  padding: 0.6em;
+  margin: 0;
+  overflow: hidden;
+  text-align:center;
+}
+
+/*Styling nav buttons*/
+li {
+  display: inline;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+/*This is so that the nav button changes its background color and becomes lighter when a cursor hovers over it*/
+li:hover {
+  background-color: #9c8881;
+  color: white;
+  transform: scale (1.5);
+}
+
+/*Styling nav button text*/
+li a {
+  color: white;
+  width: 100px;
+  height: 50px;
+  text-decoration: none;
+  font-size: 18px; 
+  font-weight: bold;
+  text-transform:uppercase;
+  border-radius: 1px;
+}
+
+/*Styling the sensor data section and adding features to make it in a box. This is just to organize the data*/
+.sensor{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 15px;
+  width: 35%;
+  background: white;
+}
+
+/*This is so that the sensor data box can get a little bit bigger and cast a shadow when a cursor hovers over it. This is just for aesthetic purposes*/
+.sensor:hover {
+/*this box shadow is generated when a cursor hovers over the box. just for aesthetic purposes*/
+  box-shadow: 0 0 15px /*fixing color of the shadow ->*/ rgba(0,0,0,0.1);
+  /*enlarging box when a cursor hovers over it. this only goes up by 5%*/
+  transform: scale(1.025);
+  transition: transform 0.5s; /*this is for the hover feature above.its meant to make the box slowly transform when a cursor hovers over the box*/
+}
+
+/*Styling the Sensor Data title*/
+.sensor h1{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*Styling the data display in the box*/
+.data {
+  width: auto;
+  height: auto;
+  text-align:center;
+  display: flex;
+  justify-content:center;
+  background: white;
+  padding: 30 px;
+}
+.data h3{
+  margin-right: 10px;
+}
+
+/*Styling the overall structure for the main*/
+main {
+  text-align: center;
+  padding-top:65px;
+  padding-bottom: 130px;
+}
+
+/*Styling footer*/
+footer {
+  background-color: #32271f;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+footer p {
+  margin: 0;
+}

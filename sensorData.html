@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>J.Y.M. Sensor Data</title>
+  <link href="style_sensorData.css" rel="stylesheet" type="text/css" />
+  
+<!--IMPLEMENTED FROM GITHUB This is the script from the Github link-->
+  <script>
+    team_name = "J.Y.M."; 
+  </script>
+  <script type="module" src="communication.js"></script>
+
+</head>
+<body>
+
+  <header>
+    <img src="Logo.jpeg" alt="This is the logo picture for the J.Y.M. team">
+
+<!--This is the homepage website title-->
+  <h1> J.Y.M. Sensor Data HAcK 2023</h1>
+  </header>
+
+<!--This is the navigation bar for the website. Includes homepage, project details, and sensor data-->
+  <nav>
+    <ul>
+    <!--Home button-->
+      <li>
+        <a href = "index.html">Home</a>
+      </li>
+    <!--Sensor Data-->
+      <li>
+        <a href = "sensorData.html">Sensor Data</a>
+      </li>
+    <!--Project Details button-->
+      <li>
+        <a href = "projectDetails.html">Prototype</a>
+      </li>
+    </ul>
+  </nav>
+
+<!--This is the main section for the Sensor Data-->
+<main>
+  <!--Making a box to neatly display the sensor data-->
+  <div class="sensor">
+    <h1>Sensor Data</h1
+                     
+<!--IMPLEMENTED FROM GITHUB. This should show the results in the Sensor Data page-->
+<!--temperature data-->
+  <div class="data">
+    <h3>Current temperature:</h3>
+    <p id="temperature"> ... </p> <p> °C</p> <!--units-->
+  </div>
+
+<!--humidity data-->
+  <div class="data">
+    <h3>Current humidity:</h3>
+    <p id="humid"> ... </p> <p>%</p> <!--units-->
+  </div>
+
+<!--gas data-->
+  <div class="data">
+    <h3>Current gas data:</h3>
+    <p id="theGasData"> ... </p>
+  </div>
+
+<!--distance data-->
+  <div class="data">
+    <h3>Current distance data:</h3>
+    <p id="distance"> ... </p> <p>cm</p> <!--units-->
+  </div>
+    
+</main>
+
+
+<!--This is the footer-->
+  <footer>
+    <p> J.Y.M. UCLA HAcK 2023 Competition.</p>
+  </footer>
+  
+</body>
+</html>

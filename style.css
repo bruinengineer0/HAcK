@@ -1,0 +1,116 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*This is the style structure for everything under the website header*/
+body {
+  font-family: Georgia, Times, serif;
+  margin: 0;
+  padding: 0px;
+  background-color: #fffbf9; 
+  line-height: 1.5;
+}
+
+/* Styling header Text and images*/
+header {
+  text-align: center;
+  background-color: white; 
+  color: black;
+  padding: 30px 0;
+}
+
+/*Styling the image in the header (the team logo)*/
+header img {
+  margin:auto;
+  max-width: 145px;
+  display:block;
+}
+
+/*This is so that the image gets bigger if a cursor hovers over it*/
+header img:hover{
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+
+/*Styling the header title*/
+header h1 {
+  font-size: 36px;
+  margin-top:40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*Styling navigation bar*/
+ul {
+  background-color: #5b4f4b; 
+  list-style-type: none;
+  padding: 0.6em;
+  margin: 0;
+  overflow: hidden;
+  text-align:center;
+}
+
+/*Styling nav buttons*/
+li {
+  display: inline;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+/*This is so that the nav button changes its background color and becomes lighter when a cursor hovers over it*/
+li:hover {
+  background-color: #9c8881;
+  color: white;
+  transform: scale (1.5);
+}
+
+/*Styling nav button text*/
+li a {
+  color: white;
+  width: 100px;
+  height: 50px;
+  text-decoration: none;
+  font-size: 18px; 
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 1px;
+}
+
+/*Styling introductory section in homepage*/
+.section {
+  text-align: center;
+  padding: 50px;
+  background-color: white;
+}
+
+/*Styling/organizing the website introduction*/
+.intro {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/*Styling the introductory header*/
+.intro h1 {
+  font: 36px bold;
+  font-family: Georgia;
+  margin-bottom:20px;
+}
+
+/*Styling the introductory paragraph*/
+.intro p {
+  font-family: serif;
+  font-size:18px;
+  margin-bottom: 35px;
+}
+
+/*Styling footer*/
+footer {
+  background-color: #32271f;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+footer p {
+  margin: 0;
+}
