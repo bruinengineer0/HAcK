@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>J.Y.M. Gauntlet Prototype</title>
+  <link href="style_projectDetails.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!--This is the header for the website -->
+  <header>
+    <img src="Logo.jpeg" alt="This is the logo picture for the J.Y.M. team">
+
+<!--This is the homepage website title-->
+  <h1>J.Y.M. Gauntlet HAcK 2023</h1>
+  </header>
+
+<!--This is the navigation bar for the website. Includes homepage, project details, and sensor data-->
+  <nav>
+    <ul>
+    <!--Home button-->
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+    <!--Sensor Data-->
+      <li>
+        <a href="sensorData.html">Sensor Data</a>
+      </li>
+    <!--Project Details button-->
+      <li>
+        <a href="projectDetails.html">Prototype</a>
+      </li>
+    </ul>
+  </nav>
+
+
+<!--This is the main part of the website w-->
+<main>
+<div class
+  <!--Here I'll be making sections for the answers to the prompts and images of the project-->
+<!--Section 1 includes image and text-->
+  <div class="section">
+    <img src="s11.jpeg" alt="Image of the Prototype">
+    <div class="details">
+      <h2>Gauntlet Design Goals</h2>
+      <p>Our team envisioned a design where the gauntlet had a comfortable fit, elegant design, and an easily understood user interface. To do this, we made a design to enclose the battery at the bottom of the gauntlet under the arm, place the circuits right above the arm but out of view, and the sensors will be at the direct top of the gauntlet, along with the OLED screen for direct data communication to the user. Our Design Measurements are: 10cm×10.5cm×13cm</p>
+    </div>
+  </div>
+
+<!--Section 2 includes image and text-->
+  <div class="section">
+    <img src="s1.jpeg" alt="This is an image of the sensors used for the prototype">
+    <div class="details">
+      <h2>Sensors Used and Their Purpose</h2>
+      <p>The main sensors we used are: the hazardous gas detection module, the AM2320 digital temperature and humidity sensor, and the ultrasonic distance sensors. The first sensors will help mission control to determine if the hero is placing their arm in the gauntlet room. The second is for determining if the hero is placing their arm in the humidifiers. Lastly, the ultrasonic sensors will allow mission control to determine where the mentors are.</p>
+    </div>
+  </div>
+
+<!--Section 3 includes image and text-->
+  <div class="section">
+    <img src="code.png" alt="This is a picture of the code">
+    <div class="details">
+      <h2>Our Code Designs and Their Purpose</h2>
+      <p>Our code was written in an iterative manner by working on individual parts and sensors first. This means that we developed arduino programs for the specific sensors such as the temperature and humidity sensor, then developed programs for the OLED screen, and finally the website. With these programs in place, we merged them together program-by-program into one file that acts as the master code. This design allows us to work on specific sensors first in order to work on any specific bugs they have.</p>
+    </div>
+  </div>
+
+<!--Section 4 includes image and text-->
+  <div class="section">
+    <img src="s4.jpeg" alt="This is an image of all the supplies for the prototype. Some are assembled, some are not.">
+    <div class="details">
+      <h2>Issues Faced and Utilizing the Engineering Mindset</h2>
+      <p>Our team encountered many issues with the code and integrating specific sensors into the design. Our aforementioned iterative design process allowed us to work specifically on these bugs one at a time so that any problems that arose were clear, rather than in one big program where errors are hard to find. Where we found problems that we could not solve at the moment, we used the engineering mindset to work on other issues and come back to it after more research and seeking guidance from mentors.</p>
+    </div>
+  </div>
+
+<!--Section 5 includes image and text-->
+  <div class="section">
+    <img src="s5.jpeg" alt="This is a picture of the circuit board attached to the prototype">
+    <div class="details">
+      <h2>Our Solutions and Iterations Process</h2>
+      <p>The iterations we made to the code were straightforward since we implemented a sensor-by-sensor design. We worked on every sensor individually in their own programs so that when we made large, iterative changes, it didn't affect other aspects of the program. For the circuits, we implemented a similar approach, however, because we were limited in the amount of breadboards we had, we had to make significant changes. We made one master breadboard with all the sensors, and when we encountered issues with any one specific sensor, we made a simple circuit with only that sensor to see if there’s a problem with the code or the circuit. This differentiation allowed us to clearly identify where the issue was and iterate accordingly.</p>
+    </div>
+  </div>
+
+<!--Section 6 includes image and text-->
+  <div class="section">
+    <img src="bna.png" alt="This is a before and after of the cad iterations">
+    <div class="details">
+      <h2>Iterative CAD Design</h2>
+      <p>We engineered the cad to be a modular design to easily integrate the parts. First we created a bottom piece to incorporate the battery, and a top piece for the sensors and the circuit. Designing this proved to be a challenge as numerous measurements had to be taken, but that was just the beginning. Once the CAD was printed, we needed to drill holes and sand the model to correctly fit the parts. However, once this was completed, we were able to fit the necessary parts into the physical design and make the working gauntlet.</p>
+    </div>
+  </div>
+
+<!--Section 7 includes image and text-->
+  <div class="section">
+    <img src="final.jpeg" alt="This is the final Gauntlet Prototype ">
+    <div class="details">
+      <h2>Final Gauntlet Prototype</h2>
+      <p>We color coded the circuit as well. These are the specifications for each wire: red is power, black is ground, white is SCL, brown is SDA, blue and green are gas sensor, purple is distance sensor (trig wire, echo is yellow), orange is 5v for distance as well.</p>
+    </div>
+  </div>
+  
+</main>
+
+  
+  <!--This is the footer of the Website-->
+  <footer>
+    <p> J.Y.M. UCLA HAcK 2023 Competition.</p>
+  </footer>
+</body>
+</html>
